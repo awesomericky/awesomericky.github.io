@@ -1,0 +1,4 @@
+name: Yunho (Ricky) Kim
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title

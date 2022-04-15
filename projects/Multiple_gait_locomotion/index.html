@@ -1,0 +1,58 @@
+---
+layout: default
+title: "Learning multiple gaits of quadruped robot using hierarchical reinforcement learning"
+---
+
+<center><h1>{{ page.title }}</h1></center>
+
+<td>
+	<center>
+		arXiv Preprint 2022<br>
+		<br>
+		<nobr>Yunho Kim</nobr> &emsp;&emsp; <nobr>Bukun Son</nobr> &emsp;&emsp; <nobr>Dongjun Lee</nobr><br>
+		<br>
+		<nobr>Seoul National University</nobr><br>
+		<br>
+		<img style="vertical-align:middle" src="Multiple_gait_locomotion_teaser.png"  width="100%" height="inherit"/>		
+	</center>
+</td>
+
+<br>
+	
+<td>
+	<hr>
+	<h3 style="margin-bottom:10px;">Abstract</h3>
+	There is a growing interest in learning a velocity command tracking controller of 
+	quadruped robot using reinforcement learning due to its robustness and scalability. 
+	However, a single policy, trained end-to-end, usually shows a single gait regardless 
+	of the command velocity. This could be a suboptimal solution considering the existence 
+	of optimal gait according to the velocity for quadruped animals. In this work, we propose 
+	a hierarchical controller for quadruped robot that could generate multiple gaits 
+	(i.e. pace, trot, bound) while tracking velocity command. Our controller is composed of two policies, 
+	each working as a central pattern generator and local feedback controller, and trained with hierarchical 
+	reinforcement learning. Experiment results show 1) the existence of optimal gait for specific velocity 
+	range 2) the efficiency of our hierarchical controller compared to a controller composed of a single 
+	policy, which usually shows a single gait. Codes are publicly available.
+</td>
+
+<td>
+	<h3> 
+		Paper: [<a href="2021_Multiple_gait_locomotion.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; 
+		Code: [<a href="https://github.com/awesomericky/Multiple-gait-controller-for-quadruped-robot">GitHub</a>] &nbsp; &nbsp; &nbsp; 
+		Preprint: [<a href="https://arxiv.org/abs/2112.04741">arXiv</a>] &nbsp; &nbsp; &nbsp; 
+		Slides: [<a href="https://bit.ly/3ADOjV1">Link</a>]
+	</h3>
+</td>
+	
+<br>
+<br>
+
+<h3 style="margin-bottom:0px;">Bibtex</h3>
+<pre>
+	@inproceedings{kim2021multiplegait,
+		author = {Kim, Yunho and Son, Bukun and Lee, Dongjun},
+		title = {Learning multiple gaits of quadruped robot using hierarchical reinforcement learning},
+		booktitle={http://arxiv.org/abs/2112.04741},
+		year={2021}
+	}
+</pre>
