@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Robots Learning to Solder 100 Motors in a Factory"
+title: "Learning-augmented robotic automation for real-world manufacturing"
 ---
 
 <center><h1>{{ page.title }}</h1></center>
@@ -19,27 +19,27 @@ title: "Robots Learning to Solder 100 Motors in a Factory"
 
 <br>
 	
-<!-- <td>
+<td>
 	<hr>
 	<h3 style="margin-bottom:10px;">Abstract</h3>
-	Ensuring safe and efficient operation of collaborative robots in human environments is challenging, especially in 
-    dynamic settings where both obstacle motion and tasks change over time. Current robot controllers typically assume 
-    full visibility and fixed tools, which can lead to collisions or overly conservative behavior. In our work, we 
-    introduce a tool-aware collision avoidance system that adjusts in real time to different tool sizes and modes of 
-    tool-environment interaction. Using a learned perception model, our system filters out robot and tool components 
-    from the point cloud, reasons about occluded area, and predicts collision under partial observability. We then use 
-    a control policy trained via constrained reinforcement learning to produce smooth avoidance maneuvers in under 
-    10 milliseconds. In simulated and real-world tests, our approach outperforms traditional approaches (APF, MPPI) in 
-    dynamic environments, while maintaining sub-millimeter accuracy. Moreover, our system operates with approximately 
-    60% lower computational cost compared to a state-of-the-art GPU-based planner. Our approach provides modular, 
-    efficient, and effective collision avoidance for robots operating in dynamic environments. We integrate our method 
-    into a collaborative robot application and demonstrate its practical use for safe and responsive operation.
+	Industrial robots are widely used in manufacturing, yet most manipulation still depends on fixed waypoint 
+    scripts that are brittle to environmental changes. Learning-based control offers a more adaptive alternative, 
+    but it remains unclear whether such methods, still mostly confined to laboratory demonstrations, can sustain 
+    hours of reliable operation, deliver consistent quality, and behave safely around people on a live production 
+    line. Here we present Learning-Augmented Robotic Automation, a hybrid system that integrates learned task controllers 
+    and a neural 3D safety monitor into conventional industrial workflows. We deployed the system on an electric-motor 
+    production line to automate deformable cable insertion and soldering under real manufacturing constraints, a step 
+    previously performed manually by human workers. With less than 20 min of real-world data per task, the system operated 
+    continuously for 5 h 10 min, producing 108 motors without physical fencing and achieving a 99.4% pass rate on 
+    product-level quality-control tests. It maintained near-human takt time while reducing variability in solder-joint 
+    quality and cycle time. These results establish a practical pathway for extending industrial automation with 
+    learning-based methods.
 </td>
 
 <td>
 	<h3> 
-        Paper: [<a href="https://ieeexplore.ieee.org/abstract/document/11031214">link</a>] &nbsp; &nbsp; &nbsp; 
-</td> -->
+        ArXiv preprint: [<a href="https://arxiv.org/abs/2604.22235">link</a>] &nbsp; &nbsp; &nbsp; 
+</td>
 
 <tr>
 		<h3 style="margin-bottom:10px;">Videos</h3>
@@ -49,16 +49,12 @@ title: "Robots Learning to Solder 100 Motors in a Factory"
 <br>
 <br>
 
-<!-- <h3 style="margin-bottom:0px;">Bibtex</h3>
+<h3 style="margin-bottom:0px;">Bibtex</h3>
 <pre>
-@ARTICLE{lee2025collisionAvoid,
-  author={Lee, Joonho and Kim, Yunho and Kim, Seokjoon and Nguyen, Quan and Heo, Youngjin},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={Learning Fast, Tool-Aware Collision Avoidance for Collaborative Robots}, 
-  year={2025},
-  volume={10},
-  number={8},
-  pages={7731-7738},
-  keywords={Collision avoidance;Robots;Safety;Training;Service robots;Three-dimensional displays;Sensors;Real-time systems;Point cloud compression;Manipulator dynamics;Collaborative robots;Collision avoidance;Reinforcement Learning;Robot vision systems},
-  doi={10.1109/LRA.2025.3579207}}
-</pre> -->
+@article{kim2026lara,
+	title={Learning-augmented robotic automation for real-world manufacturing},
+	author={Kim, Yunho and Nguyen, Quan and Kim, Taewhan and Heo, Youngjin and Lee, Joonho},
+	journal={arXiv preprint arXiv:2604.22235},
+	year={2026}
+  }
+</pre>
